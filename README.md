@@ -2,166 +2,91 @@
 
 # Yury Popov
 
-### AI Agent Security · LLM Red Teaming · Strange Systems That Should Not Be Trusted Blindly
+### Building production-grade education software · Security-first backend engineering · AI agent security
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=820&lines=Breaking+AI+agents+before+they+break+the+world;Prompt+injection+%7C+tool-use+risk+%7C+memory+poisoning;HSE+x+Kyung+Hee+University;Building+security+taste%2C+one+ugly+edge+case+at+a+time" alt="Typing SVG" />
+HSE University × Kyung Hee University double-degree student
 
-<br/>
-
-[![GitHub followers](https://img.shields.io/github/followers/iluvcashnhash?style=for-the-badge&logo=github&color=00E5FF&labelColor=111111)](https://github.com/iluvcashnhash)
-[![Profile views](https://komarev.com/ghpvc/?username=iluvcashnhash&style=for-the-badge&color=blueviolet)](https://github.com/iluvcashnhash)
-[![Location](https://img.shields.io/badge/Seoul%20%2F%20Moscow-111111?style=for-the-badge&logo=googlemaps&logoColor=00E5FF)](#)
+[![Email](https://img.shields.io/badge/Email-cashnhash%40proton.me-111111?style=flat-square&logo=protonmail&logoColor=white)](mailto:cashnhash@proton.me)
 
 </div>
 
 ---
 
-## What I am trying to become
+## What I am building now
 
-I am an undergraduate student in the HSE x Kyung Hee University double-degree track, building my way into **AI security**.
+### Mathemario
 
-My main obsession is simple:
+I am building **Mathemario**, an adaptive mathematics learning product for Russian schools.
 
-> AI agents are not just chatbots.  
-> They are software systems with memory, tools, permissions, incentives, hidden context, and failure modes.  
-> That makes them a security problem.
+My current work is focused on the production backend and the engineering foundations required before pilots:
 
-I care about:
+- modular-monolith architecture with a separate worker process;
+- Python, FastAPI, PostgreSQL, Redis, SQLAlchemy and Alembic;
+- tenant isolation and server-built security context;
+- deny-by-default authorization and scoped data access;
+- authentication lifecycle, auditability and secure migrations;
+- unit, integration and security test suites;
+- Docker-based development and GitHub Actions CI.
 
-- prompt injection and indirect prompt injection
-- LLM application security
-- unsafe tool use and confused-deputy failures
-- memory poisoning and RAG integrity
-- multi-agent systems security
-- agent red teaming
-- trust propagation in agent networks
-- graph anomaly detection for agent swarms
-- collusion and hidden coordination between autonomous systems
-
-I am not here to pretend I already have everything figured out.  
-I am here to build, break, document, and get dangerous enough to be useful.
+The main product repository is currently private while the architecture and implementation are being developed.
 
 ---
 
-## Current direction
+## Selected public work
 
-```txt
-AI Agent Security
-├── LLM red teaming
-│   ├── jailbreaks
-│   ├── prompt injection
-│   └── evaluation harnesses
-├── Tool-use security
-│   ├── MCP / function calling
-│   ├── unsafe delegation
-│   └── action boundary failures
-├── Memory and context attacks
-│   ├── poisoned memories
-│   ├── malicious documents
-│   └── RAG corruption
-└── Multi-agent systems
-    ├── trust graphs
-    ├── anomaly detection
-    └── collusion prevention
-```
+### [Social Space for Agentic Systems](https://github.com/iluvcashnhash/Social-Space-for-Agentic-Systems)
+
+A multi-world simulation of algorithmic societies populated by persistent LLM-driven agents. It combines isolated experimental conditions, economic dynamics, algorithmic feeds, PostgreSQL persistence and failure-tolerant orchestration.
+
+### [Time-Travel Execution Language](https://github.com/iluvcashnhash/time-travel-exec-compile)
+
+A small interpreted programming language written in Python with a lexer, recursive-descent parser, AST evaluator, execution snapshots and an interactive recovery REPL that can rewind state, patch variables and resume after runtime failures.
 
 ---
 
-## Things I want to build
-
-| Project idea | Why it matters |
-|---|---|
-| **Vulnerable AI Agent Lab** | A deliberately insecure agent with tools, memory, and RAG for red-team practice |
-| **Agent Red-Team Test Suite** | Prompt injection, tool misuse, memory poisoning, and exfiltration tests mapped to OWASP / MITRE ATLAS |
-| **Memory Poisoning Playground** | Persistent attacks against long-term agent memory |
-| **Tool-Call Firewall** | A small monitor that scores and blocks suspicious agent actions |
-| **Multi-Agent Trust Graph** | Detecting abnormal coordination, privilege spread, and rogue-agent behavior |
-| **AI Security Reports** | Short, reproducible writeups instead of vague AI safety opinions |
-
----
-
-## Tech I use or am learning
+## Engineering stack
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=FFD43B)
-![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=FFFFFF)
-![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032)
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=009688)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Redis](https://img.shields.io/badge/Redis-111111?style=for-the-badge&logo=redis&logoColor=DC382D)
 ![Docker](https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=2496ED)
-![LangChain](https://img.shields.io/badge/LangChain-111111?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/LLMs-111111?style=for-the-badge&logo=openai&logoColor=00E5FF)
-![Security](https://img.shields.io/badge/AppSec%20%2F%20AI%20Security-111111?style=for-the-badge&logo=owasp&logoColor=FFFFFF)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111111?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 
 </div>
 
----
-
-## Repositories worth checking
-
-- [**Social-Space-for-Agentic-Systems**](https://github.com/iluvcashnhash/Social-Space-for-Agentic-Systems)  
-  Early work around agentic systems, social structure, and coordination.
-
-- [**telegramtextparser**](https://github.com/iluvcashnhash/telegramtextparser)  
-  Python tooling for parsing Telegram text data.
-
-- [**time-travel-exec-compile**](https://github.com/iluvcashnhash/time-travel-exec-compile)  
-  Weird experiments are often where useful ideas start.
-
-- [**Tragictory-Physics**](https://github.com/iluvcashnhash/Tragictory-Physics)  
-  Exploration-heavy repo. Not everything has to be neat before it becomes interesting.
+I work with SQLAlchemy, Alembic, Pydantic, pytest, Ruff, strict mypy, dependency auditing, SBOM generation and security-focused integration testing.
 
 ---
 
-## My current learning map
+## Research interests
 
-```mermaid
-flowchart TD
-    A[Python + Systems Basics] --> B[Web / AppSec]
-    B --> C[LLM Security]
-    C --> D[AI Agent Security]
-    D --> E[Tool-use Risk]
-    D --> F[Memory Poisoning]
-    D --> G[Multi-Agent Trust Graphs]
-    E --> H[Red Team Harnesses]
-    F --> H
-    G --> H
-    H --> I[Research + Open Source Contributions]
-```
+Alongside product engineering, I study the security of AI agent systems:
+
+- prompt injection and unsafe tool use;
+- memory poisoning and RAG integrity;
+- confused-deputy and authorization failures;
+- multi-agent trust and anomaly detection;
+- hidden coordination and collusion between autonomous systems;
+- adversarial evaluation of systems with tools, memory and permissions.
+
+I am interested in the point where AI agents stop being chat interfaces and become security-sensitive software systems.
 
 ---
 
-## What I am looking for
+## Open to
 
-I am open to:
-
-- AI security research assistant work
-- LLM red-teaming projects
-- open-source AI security tooling
-- junior / internship roles in AI security or AppSec
-- labs, fellowships, and weird research groups
-- people building things at the edge of agents, security, and systems
-
-Especially if the work involves:
-
-```txt
-agents + tools + memory + adversaries + logs + graphs + uncomfortable edge cases
-```
-
----
-
-## Contact
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-iluvcashnhash-111111?style=for-the-badge&logo=github)](https://github.com/iluvcashnhash)
-[![Email](https://img.shields.io/badge/Email-cashnhash%40proton.me-111111?style=for-the-badge&logo=protonmail&logoColor=6D4AFF)](mailto:cashnhash@proton.me)
-
-</div>
+- backend and AI engineering internships;
+- AI security or application-security research work;
+- open-source collaboration around agent systems and developer tooling;
+- research groups working on agents, security, systems, graphs or adversarial evaluation.
 
 ---
 
 <div align="center">
 
-### The agent is not aligned until the logs survive contact with an adversary.
+**Build the system. Define the boundary. Test how it fails.**
 
 </div>
