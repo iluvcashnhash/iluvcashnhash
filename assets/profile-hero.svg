@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Yury Popov — founder-engineer</title>
+  <desc id="desc">A mission-control style banner for Yury Popov, building Mathemario and researching AI agent security.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#101a33"/>
+      <stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#93c5fd" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1040" cy="78" r="118" fill="#60a5fa" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1120" cy="300" r="150" fill="#c084fc" opacity="0.08" filter="url(#glow)"/>
+
+  <g transform="translate(64 54)">
+    <text x="0" y="0" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">MISSION CONTROL / PROFILE</text>
+    <text x="0" y="65" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800">Yury Popov</text>
+    <rect x="0" y="86" width="650" height="5" rx="3" fill="url(#accent)"/>
+    <text x="0" y="132" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="500">Founder-engineer building serious software</text>
+    <text x="0" y="169" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Education products · open-source systems · AI agent security</text>
+
+    <g transform="translate(0 214)">
+      <rect width="214" height="46" rx="23" fill="#0f2b2b" stroke="#5eead4" stroke-opacity="0.45"/>
+      <circle cx="24" cy="23" r="6" fill="#5eead4">
+        <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="42" y="29" fill="#ccfbf1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">MATHEMARIO / ACTIVE</text>
+    </g>
+
+    <g transform="translate(230 214)">
+      <rect width="222" height="46" rx="23" fill="#172554" stroke="#60a5fa" stroke-opacity="0.45"/>
+      <circle cx="24" cy="23" r="6" fill="#60a5fa"/>
+      <text x="42" y="29" fill="#dbeafe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">OPEN SOURCE / SELECTIVE</text>
+    </g>
+
+    <g transform="translate(468 214)">
+      <rect width="224" height="46" rx="23" fill="#2e1065" stroke="#c084fc" stroke-opacity="0.45"/>
+      <circle cx="24" cy="23" r="6" fill="#c084fc"/>
+      <text x="42" y="29" fill="#f3e8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">AI SECURITY / RESEARCH</text>
+    </g>
+  </g>
+
+  <g transform="translate(882 122)">
+    <rect width="250" height="118" rx="18" fill="#020617" fill-opacity="0.58" stroke="#64748b" stroke-opacity="0.28"/>
+    <text x="22" y="30" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">$ current_mission</text>
+    <text x="22" y="62" fill="#f8fafc" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" font-weight="700">build fewer things.</text>
+    <text x="22" y="86" fill="#f8fafc" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" font-weight="700">make them real.</text>
+    <rect x="22" y="99" width="10" height="3" fill="#5eead4">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
